@@ -21,7 +21,8 @@
 // ✏️ TAREFA 3.1
 // Adicione a prop "emPromocao" na lista abaixo, com valor padrão false.
 //   Ex.: { nome, preco, emPromocao = false }
-function Produto({ nome, preco }) {
+
+function Produto({ nome, preco,emPromocao = false }) {
   return (
     // ✏️ TAREFA 3.3 (desafio)
     // Faça a className mudar conforme a prop:

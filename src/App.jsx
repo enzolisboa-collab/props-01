@@ -58,16 +58,26 @@ function App() {
             nome="Ana Souza"
             curso="Desenvolvimento de Sistemas"
             idade={17}
-            foto="https://i.pravatar.cc/150?img=47"
+            foto="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png"
           />
 
           {/* ✏️ TAREFA 2.4
               Complete este cartão: adicione as props idade e foto.
               Para a foto, você pode usar: https://i.pravatar.cc/150?img=12  */}
-          <CartaoAluno nome="Carlos Lima" curso="Front-end" />
-
-          {/* ✏️ TAREFA 2.5
-              Crie um terceiro <CartaoAluno /> com os SEUS dados.          */}
+          <CartaoAluno 
+          nome="Carlos Lima" 
+          curso="Front-end" 
+          idade={67}
+          foto="https://img.cdndsgni.com/preview/12800049.jpg"
+          />
+         {
+          <CartaoAluno 
+          nome="Veracidade"
+          curso="computaçao"
+          idade={20}
+          foto="https://play-lh.googleusercontent.com/WWYQtgbHVjVKkazBWqNqKXG-BdAoKfMH-63lVFeb71cHkKeHYwi07PfB6uo4hy-agBeNkywT99-h4AbapBCr=w240-h480-rw"
+          />
+         }
         </div>
       </section>
 
